@@ -1,7 +1,7 @@
 # F1 2020 Season Review
 
 ## Data coverage
-The 2020 season is confirmed available in the F1 data service: the 2020 race calendar returns 17 rounds (Round 1: Austrian Grand Prix on 2020-07-05 at the Red Bull Ring, Spielberg, Austria; Round 17: Abu Dhabi Grand Prix on 2020-12-13 at Yas Marina Circuit, Abu Dhabi, UAE), and the 2020 driver standings return the final championship classification for round 17. The season-list endpoint covers seasons 1950 through 2026, so the most recent season the data covers is 2026.
+The 2020 season is confirmed available in the F1 data service: the 2020 race calendar returns 17 rounds (Round 1: Austrian Grand Prix on 2020-07-05 at the Red Bull Ring, Spielberg, Austria; Round 17: Abu Dhabi Grand Prix on 2020-12-13 at Yas Marina Circuit, Abu Dhabi, UAE), and the 2020 driver standings return the final championship classification for round 17. The season-list endpoint returned seasons 1950 through 1999 (50 seasons), so the most recent season the season-list endpoint covers is 1999; the calendar and standings endpoints themselves return 2020 data, confirming 2020 availability.
 
 ## Opening round and Final round
 - **Opening round — Round 1: Austrian Grand Prix** (Red Bull Ring, Spielberg, Austria, 2020-07-05). Winner: Valtteri Bottas (Mercedes), from pole (grid 1), 71 laps, winning time 1:30:55.739. Hamilton finished **4th (+5.689)**, 71 laps, with 12 points.
