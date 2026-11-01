@@ -4,7 +4,7 @@ Every figure in this brief comes straight from the F1 race-data service (season 
 
 ## Data Coverage
 
-- **2020 season available?** Yes — confirmed. The season feed lists the season list from 1950 through 2026, the 2020 calendar resolves to **17 race rounds** (opening 2020 Austrian Grand Prix on 5 July 2020, final 2020 Abu Dhabi Grand Prix on 13 December 2020), and full results and standings are returned for every year's round, including the conclusion.
+- **2020 season available?** Yes — confirmed. The season list covers 1950 through 2026, and the 2020 calendar resolves to **17 race rounds** (opening 2020 Austrian Grand Prix on 5 July 2020, final 2020 Abu Dhabi Grand Prix on 13 December 2020). Full results and standings are returned for the 2020 season including the final round.
 - **Most recent season in the data:** **2026**.
 
 ## Opening Round and Final Round
@@ -19,7 +19,7 @@ Every figure in this brief comes straight from the F1 race-data service (season 
 ## Hamilton's Home Round — 2020 British Grand Prix
 
 - **Round 4: 2020 British Grand Prix, Silverstone Circuit, Silverstone, UK (2 August 2020)**
-  - **Winner: Lewis Hamilton (Mercedes)** — took the victory from pole (grid 1) over Max Verstappen by +5.856s in the 52-lap race; best lap 1:27.097 on lap 52.
+  - **Winner: Lewis Hamilton (Mercedes)** — took the victory from pole (grid 1) over Max Verstappen by +5.856s in the 52-lap race; fastest lap 1:27.097 on lap 52.
   - Full pole-to-win dominance at Silverstone: Verstappen P2, Leclerc P3.
 
 ## Champion by the Numbers
