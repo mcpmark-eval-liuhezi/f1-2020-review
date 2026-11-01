@@ -1,40 +1,27 @@
 # F1 2020 Season Review
 
-Every figure in this brief comes straight from the F1 race-data service (season calendar, race results, driver standings and driver profile) — no numbers copied from secondary sources.
+## Data coverage
+The 2020 season is confirmed available in the F1 race-data service: the season list includes 2020 (alongside 1950-2026), and the 2020 race calendar, driver standings, and historic race results for 2020 rounds all returned data. The most recent season the data covers is 2026.
 
-## Data Coverage
+## Opening round and Final round
+- Opening round — Round 1: 2020 Austrian Grand Prix, Red Bull Ring, Spielberg, Austria (2020-07-05). Winner: Valtteri Bottas (Mercedes), started from pole (grid 1), 71 laps, winning time 1:30:55.739, 25 points. Hamilton finished 4th (12 points), started 5th, 71 laps, +5.689.
+- Final round — Round 17: 2020 Abu Dhabi Grand Prix, Yas Marina Circuit, Abu Dhabi, UAE (2020-12-13). Winner: Max Verstappen (Red Bull), started from pole (grid 1), 55 laps, winning time 1:36:28.645, 25 points. Hamilton finished 3rd (15 points), started 3rd, 55 laps, +18.415.
 
-- **2020 season available?** Yes — confirmed. The season list covers 1950 through 2026, and the 2020 calendar resolves to **17 race rounds** (opening 2020 Austrian Grand Prix on 5 July 2020, final 2020 Abu Dhabi Grand Prix on 13 December 2020). Full results and standings are returned for the 2020 season including the final round.
-- **Most recent season in the data:** **2026**.
+## Hamilton's home round
+2020 British Grand Prix, Silverstone Circuit, Silverstone, UK (2020-08-02, Round 4). Winner: Lewis Hamilton (Mercedes), started from pole (grid 1), 52 laps, winning time 1:28:01.283, 25 points. Classmate Verstappen finished 2nd (+5.856) and Leclerc 3rd (+18.474).
 
-## Opening Round and Final Round
+## Champion by the numbers
+Final 2020 driver standings, exactly as the standings data returns them:
+- Position 1: Lewis Hamilton (Mercedes) — 347 points, 11 wins
+- Position 2: Valtteri Bottas (Mercedes) — 223 points, 2 wins
+Margin over the runner-up: 347 - 223 = 124 points.
 
-- **Opening round — Round 1: 2020 Austrian Grand Prix, Red Bull Ring, Spielberg, Austria (5 July 2020)**
-  - **Winner: Valtteri Bottas (Mercedes)** — started from pole (grid 1), 71 laps, race time 1:30:55.739.
-  - **Lewis Hamilton finished 4th** (71 laps, +5.689s behind the winner) and scored 12 points.
-- **Final round — Round 17: 2020 Abu Dhabi Grand Prix, Yas Marina Circuit, Abu Dhabi, UAE (13 December 2020)**
-  - **Winner: Max Verstappen (Red Bull)** — started from pole (grid 1), 55 laps, +15.976s.
-  - **Lewis Hamilton finished 3rd** (55 laps, +18.415s) and scored 15 points.
+## Driver spotlight
+From Hamilton's driver profile:
+- Permanent car number: 44
+- Nationality: British
+- Date of birth: 1985-01-07
+- Driver code: HAM; constructor: Mercedes
 
-## Hamilton's Home Round — 2020 British Grand Prix
-
-- **Round 4: 2020 British Grand Prix, Silverstone Circuit, Silverstone, UK (2 August 2020)**
-  - **Winner: Lewis Hamilton (Mercedes)** — took the victory from pole (grid 1) over Max Verstappen by +5.856s in the 52-lap race; fastest lap 1:27.097 on lap 52.
-  - Full pole-to-win dominance at Silverstone: Verstappen P2, Leclerc P3.
-
-## Champion by the Numbers
-
-- **Champion: Lewis Hamilton (Mercedes)** — final points total **347**, with **11 wins** across the season.
-- **Runner-up: Valtteri Bottas (Mercedes)** — **223 points**, with 2 wins.
-- **Margin: 124 points** (347 − 223).
-
-## Driver Spotlight — Lewis Hamilton
-
-- **Permanent car number:** 44
-- **Nationality:** British
-- **Date of birth:** 1985-01-07
-
-## Right Now — Live Race-Control Check
-
-- The live race-control query returned messages, but **every entry is timestamped 2023-02-24** (meeting key 1140 / session key 7763 — the 2023 pre-season testing at Bahrain), ending with "SESSION FINISHED" and "SESSION WILL RESUME AT 18:14".
-- **Nothing is live at the moment.** The feed holds only stale historical messages from the 2023 test weekend; there is no active session running in the live race-control feed right now.
+## Right now
+The live race-control feed returned messages, but every entry is timestamped 2023-02-24 (meeting_key 1140, session_key 7763) — e.g. "SESSION STARTED", "RED FLAG", "SESSION ABORTED", "SESSION FINISHED", "DRS ENABLED", "TRACK CLEAR", "GREEN LIGHT - PIT EXIT OPEN", "RISK OF RAIN FOR THIS SESSION IS 0%", "VIRTUAL SAFETY CAR DEPLOYED", "START ABORTED - EXTRA FORMATION LAP", "SESSION WILL RESUME AT 18:14". Nothing is live at the moment; the feed is serving stale/archived 2023 session data rather than a current race.
