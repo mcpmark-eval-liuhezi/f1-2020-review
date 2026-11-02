@@ -1,31 +1,29 @@
 # F1 2020 Season Review
 
 ## Data coverage
-The 2020 season is confirmed available in the F1 data service: the 2020 race calendar (rounds 1-17), historic race results for rounds 1, 4 and 17, the 2020 driver standings (round 17) and the Hamilton driver profile all returned data. The season list also shows coverage up to 2026, so the most recent season the data covers is 2026.
+The 2020 season is confirmed available in the F1 data service (it appears in the season list alongside 2019, 2021-2026). The most recent season the data covers is 2026.
 
-## Opening round and Final round
-- Opening round (Round 1): 2020 Austrian Grand Prix, Red Bull Ring, Spielberg, Austria — 2020-07-05.
-  - Winner: Valtteri Bottas (Mercedes), from pole position, time 1:30:55.739.
-  - Hamilton finished 4th (P4), grid 5, 71 laps completed, +5.689.
-- Final round (Round 17): 2020 Abu Dhabi Grand Prix, Yas Marina Circuit, Abu Dhabi, UAE — 2020-12-13.
-  - Winner: Max Verstappen (Red Bull), from pole position, time 1:36:28.645 (55 laps).
-  - Hamilton finished 3rd (P3), +18.415, 55 laps.
+## Opening round — Round 1: Austrian Grand Prix (Red Bull Ring, Spielberg, Austria, 2020-07-05)
+- Winner: Valtteri Bottas (Mercedes), time 1:30:55.739 (71 laps)
+- Hamilton: P4, +5.689, 12 points (grid 5)
 
-## Hamilton's home round
-- Round 4: 2020 British Grand Prix, Silverstone Circuit, Silverstone, UK — 2020-08-02.
-  - Winner: Lewis Hamilton (Mercedes), from pole position, time 1:28:01.283 (52 laps).
-  - Hamilton finished 1st (P1).
-  - Rest of class: Verstappen P2 (+5.856), Leclerc P3 (+18.474).
+## Final round — Round 17: Abu Dhabi Grand Prix (Yas Marina Circuit, Abu Dhabi, UAE, 2020-12-13)
+- Winner: Max Verstappen (Red Bull), time 1:36:28.645 (55 laps)
+- Hamilton: P3, +18.415, 15 points (grid 3)
+
+## Hamilton's home round — 2020 British Grand Prix (Silverstone Circuit, UK, 2020-08-02, Round 4)
+- Winner: Lewis Hamilton (Mercedes), time 1:28:01.283 (52 laps; fastest lap rank 3, 1:29.238 on lap 45)
+- Hamilton: P1, 25 points (grid 1)
 
 ## Champion by the numbers
-- Hamilton final 2020 points total: 347 (11 wins).
-- Runner-up Valtteri Bottas: 223 points (2 wins).
-- Margin: 124 points.
+- Hamilton (P1): 347 points, 11 wins
+- Bottas (P2): 223 points, 2 wins
+- Margin: 124 points
 
-## Driver spotlight
-- Permanent car number: 44
+## Driver spotlight — Lewis Hamilton
+- Permanent number: 44
 - Nationality: British
 - Date of birth: 1985-01-07
 
 ## Right now
-The live session status check returned an empty response, indicating no current live session. The live race-control feed returned messages dated 2023-02-24 (meeting_key 1140, session_key 7763) — from a 2023 session, not a currently live event. Messages included DRS enabled, green light / pit exit open, session started, double yellow in sector 6, yellow in sector 5, VSC deployed, red flag, session aborted, track clear, standing start procedure, start aborted, session aborted again, red flag, session will resume at 18:14, track clear, green light, session started, DRS enabled, double yellow in sector 12, yellow in sector 11... No current live session is active at this moment.
+getCurrentSessionStatus returned an empty response, indicating no live session is active at the moment. The live race-control feed returned stored messages anchored to 2023-02-24 (meeting_key 1140, session_key 7763), including: RISK OF RAIN FOR THIS SESSION IS 0%; DRS ENABLED; GREEN LIGHT - PIT EXIT OPEN; SESSION STARTED; DOUBLE YELLOW IN TRACK SECTOR 6; YELLOW IN TRACK SECTOR 5; VIRTUAL SAFETY CAR DEPLOYED; RED FLAG; SESSION ABORTED; TRACK CLEAR; SESSION STARTED; STANDING START PROCEDURE; START ABORTED - EXTRA FORMATION LAP; SESSION ABORTED; RED FLAG; AIR TEMPERATURE 1 HOUR BEFORE THE SESSION = 31.1 DEGREES; TRACK CLEAR; SESSION FINISHED; then a second session with RED FLAG; SESSION ABORTED; SESSION WILL RESUME AT 18:14; TRACK CLEAR; GREEN LIGHT - PIT EXIT OPEN; SESSION STARTED; DRS ENABLED; DOUBLE YELLOW IN TRACK SECTOR 12; DRS DISABLED IN ZONE 2; YELLOW IN TRACK SECTOR 11 (output truncated). In short: nothing is live right now; the race-control feed serves stored 2023 messages rather than a current session.
